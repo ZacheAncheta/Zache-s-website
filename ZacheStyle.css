@@ -1,0 +1,51 @@
+html {
+margin: 0;
+padding: 0;
+}
+img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+.logo {
+    position: absolute;
+    text-anchor: start;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 72px;
+}
+.header {
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, .2);
+    width: 100%;
+    height: 53px;
+}
+div ul{
+    text-align: center;
+    padding-top: 15px;
+}
+div li {
+    display: inline;
+    text-align: center;
+    font-family: sans-serif;
+    padding-left: 80px;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:  #E4F6F8;
+}
+a:hover {
+color: turquoise;
+transition: none;
+}
+.menu {
+    text-align: right;
+    padding-top: 5px;
+    padding-left: 100px;
+    width: 10px;
+}
